@@ -140,3 +140,24 @@ form {
   width: 100%;
   background: #eee;
 }
+.discover {
+  text-align: center;
+  p{
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+  }
+}
+.courses {
+  display: inline-block;
+}
+.course {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
