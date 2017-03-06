@@ -1,0 +1,142 @@
+$primary: #39474e;
+$secondary: #8E6C88;
+$three: #63C7B2;
+$four: #80CED7;
+$five: #fff;
+body {
+  font-family: 'PT Serif', serif;
+}
+header {
+  background: $primary;
+  a {
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 15px;
+    letter-spacing: 1px;
+  }
+  .head-nav {
+    width: 80%;
+    margin: 0 auto;
+    // padding: 0;
+    .lnav {
+      float: left;
+      // display: flex;
+      margin: 0;
+      // padding: 20px;
+      padding: 10px;
+      // align-items: center;
+
+    }
+    .rnav {
+      float: right;
+      margin: 0;
+      padding-top: 13px;
+    }
+    .lnav, .rnav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      li {
+        margin-right: 10px;
+      }
+    }
+    li {
+      display: inline-block;
+      margin: 0;
+      // padding: 20px;
+    }
+    a {
+      color: $five;
+    }
+  }
+}
+
+button {
+  background: $four;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.head {
+  height: 600px;
+  background-image: url("../images/home-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: $five;
+  .head-content {
+    margin: 0 auto;
+    width: 80%;
+    padding: 100px;
+    h1 {
+      width: 40%;
+      font-size: 3.5em;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-size: 1.8em;
+    }
+  }
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sponsors {
+  width: 100%;
+  height: 100px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    background: $primary;
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+  }
+}
+form {
+  background: #EBEBEB;
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  border-bottom: 2px solid #d2d2d2;
+}
+.info {
+  padding: 100px 0;
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: $three;
+  }
+  p {
+    color: $secondary;
+    font-family: helvetica;
+  }
+}
+
+.sign-up {
+  input, button {
+    width: 40%;
+    margin: 5px 4%;
+  }
+  .email, .number, button{
+    width: 89%;
+  }
+}
+.email {
+  width: 100%;
+}
+.cont {
+  width: 100%;
+  background: #eee;
+}

@@ -1,0 +1,109 @@
+body {
+  font-family: 'PT Serif', serif; }
+
+header {
+  background: #39474e; }
+  header a {
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 15px;
+    letter-spacing: 1px; }
+  header .head-nav {
+    width: 80%;
+    margin: 0 auto; }
+    header .head-nav .lnav {
+      float: left;
+      margin: 0;
+      padding: 10px; }
+    header .head-nav .rnav {
+      float: right;
+      margin: 0;
+      padding-top: 13px; }
+    header .head-nav .lnav, header .head-nav .rnav {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      header .head-nav .lnav li, header .head-nav .rnav li {
+        margin-right: 10px; }
+    header .head-nav li {
+      display: inline-block;
+      margin: 0; }
+    header .head-nav a {
+      color: #fff; }
+
+button {
+  background: #80CED7; }
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both; }
+
+.head {
+  height: 600px;
+  background-image: url("../images/home-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff; }
+  .head .head-content {
+    margin: 0 auto;
+    width: 80%;
+    padding: 100px; }
+    .head .head-content h1 {
+      width: 40%;
+      font-size: 3.5em;
+      font-weight: 800;
+      letter-spacing: 2px; }
+    .head .head-content h2 {
+      font-size: 1.8em; }
+
+section {
+  width: 80%;
+  margin: 0 auto; }
+
+.sponsors {
+  width: 100%;
+  height: 100px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .sponsors img {
+    background: #39474e;
+    width: 100px;
+    height: 100px;
+    margin: 0 30px; }
+
+form {
+  background: #EBEBEB;
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 10px;
+  border-bottom: 2px solid #d2d2d2; }
+
+.info {
+  padding: 100px 0; }
+  .info h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #63C7B2; }
+  .info p {
+    color: #8E6C88;
+    font-family: helvetica; }
+
+.sign-up input, .sign-up button {
+  width: 40%;
+  margin: 5px 4%; }
+.sign-up .email, .sign-up .number, .sign-up button {
+  width: 89%; }
+
+.email {
+  width: 100%; }
+
+.cont {
+  width: 100%;
+  background: #eee; }
+
+/*# sourceMappingURL=style.css.map */
