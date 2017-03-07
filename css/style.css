@@ -70,9 +70,7 @@ section {
   align-items: center;
   justify-content: center; }
   .sponsors img {
-    background: #39474e;
     width: 100px;
-    height: 100px;
     margin: 0 30px; }
 
 form {
@@ -122,7 +120,53 @@ form {
   margin: 20px;
   align-items: center; }
   .course img {
-    width: 60px;
-    height: 60px; }
+    width: 60px; }
+
+.people {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .people img {
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #CF852C; }
+  .people .lstudent, .people .rstudent {
+    text-align: center;
+    margin: 20px; }
+    .people .lstudent p, .people .rstudent p {
+      text-align: left; }
+
+.students-showcase h1 {
+  margin: 50px 10px;
+  font-size: 2rem;
+  text-transform: uppercase; }
+.students-showcase h2 {
+  font-size: 3rem; }
+
+.employers {
+  background: #747D84;
+  width: 100%;
+  text-align: center;
+  color: #fff; }
+  .employers p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.2em; }
+  .employers .employer-logos {
+    width: 70%;
+    margin: 0 auto; }
+  .employers img {
+    width: 150px;
+    margin: 5px 70px; }
+
+.bottom-form {
+  display: flex;
+  flex-direction: row; }
+  .bottom-form form {
+    margin: 40px 10px; }
+
+.questions h1 {
+  font-size: 2em; }
 
 /*# sourceMappingURL=style.css.map */

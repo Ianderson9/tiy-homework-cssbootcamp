@@ -3,6 +3,7 @@ $secondary: #8E6C88;
 $three: #63C7B2;
 $four: #80CED7;
 $five: #fff;
+
 body {
   font-family: 'PT Serif', serif;
 }
@@ -97,9 +98,9 @@ section {
   align-items: center;
   justify-content: center;
   img {
-    background: $primary;
+    // background: $primary;
     width: 100px;
-    height: 100px;
+    // height: 100px;
     margin: 0 30px;
   }
 }
@@ -158,6 +159,64 @@ form {
   align-items: center;
   img {
     width: 60px;
-    height: 60px;
+    // height: 60px;
   }
+}
+.people {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid #CF852C;
+  }
+  .lstudent, .rstudent {
+    text-align: center;
+    margin: 20px;
+    p {
+      text-align: left;
+    }
+  }
+}
+.students-showcase {
+  h1 {
+    margin: 50px 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+
+}
+.employers {
+  background: #747D84;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.2em;
+  }
+  .employer-logos {
+    width: 70%;
+    margin: 0 auto;
+  }
+  img {
+    width: 150px;
+    margin: 5px 70px;
+  }
+}
+.bottom-form {
+  display: flex;
+  flex-direction: row;
+  form {
+    margin: 40px 10px;
+  }
+}
+.questions h1 {
+  font-size: 2em;
 }
